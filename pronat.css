@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* GLOBAL CSS */
+
+.greenspancolor {
+    color: #43f07a;
+}
+
+.textcentered {
+    text-align: center;
+}
+
+.marginTop {
+    margin-top: 40px;
+}
+
+.dFlex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconSize {
+    font-size: 22px;
+}
+
+/* END OF GLOBAL CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header .logo img {
+    width: 130px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo .logo-header h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+header .navbar {
+    display: flex;
+    gap: 60px;
+    letter-spacing: 1px;
+}
+
+header .navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.box {
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.box:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+}
+
+.box:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+}
+
+.box:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box:hover:before {
+    border-color: #43f07a;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+}
+
+.box:hover:after {
+    border-color: #43f07a;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+}
+
+.ofro-pron {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.pronat-rowflex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.pronat-1 {
+    width: 30%;
+    max-width: 60%;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-inline: auto;
+
+}
+
+.pronat-1 .image-prona1 img {
+    width: 500px;
+    padding: 10px;
+    margin-left: 27px;
+}
+
+.pronat-1 .prona-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.pronat-1 .prona-content .dhomat {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.pronat-1:not(button) {
+    cursor: default;
+}
+
+.box1 {
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.box1:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+}
+
+.box1:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+}
+
+.box1:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box1:hover:before {
+    border-color: #43f07a;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+}
+
+.box1:hover:after {
+    border-color: #43f07a;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+}
