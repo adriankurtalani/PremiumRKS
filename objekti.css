@@ -142,55 +142,46 @@ header .navbar a {
     background: transparent;
 }
 
-.pronat-rowflex {
+.main-wrap {
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.prona-image img {
+    width: 50%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.prona-detajet h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.prona-ikonat {
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    gap: 60px;
+    margin-top: 30px;
 }
 
-.pronat-1 {
-    width: 30%;
-    max-width: 60%;
-    border: 1px solid rgb(141, 141, 141);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-inline: auto;
-
-}
-
-.pronat-1 .image-prona1 img {
-    width: 500px;
-    padding: 10px;
-    margin-left: 27px;
-}
-
-.pronat-1 .prona-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 15px;
-    gap: 15px;
-}
-
-.pronat-1 .prona-content .dhomat {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.pronat-1:not(button) {
-    cursor: default;
+.ikonatsize {
+    font-size: 22px;
 }
 
 .box1 {
-    width: 140px;
+    width: 200px;
     height: auto;
     float: left;
     transition: .5s linear;
@@ -249,4 +240,59 @@ header .navbar a {
     height: 100%;
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .5s;
+}
+
+.btn button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pronat-rowflex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.pronat-1 {
+    width: 30%;
+    max-width: 60%;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-inline: auto;
+    margin-top: 150px;
+}
+
+.pronat-1 .image-prona1 img {
+    width: 500px;
+    padding: 10px;
+    margin-left: 27px;
+}
+
+.pronat-1 .prona-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.pronat-1 .prona-content .dhomat {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.pronat-1:not(button) {
+    cursor: default;
 }

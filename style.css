@@ -51,6 +51,7 @@ header {
   top: 0;
   z-index: 1000;
   width: 100%;
+  box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
@@ -150,12 +151,15 @@ header .navbar a {
 /* BUTONI KRYESOR = FINISH */
 
 main {
-  background-image: url(./images/property-background.webp);
+  background-image: url(./images/346262.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.418);
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: color;
   height: 60vh;
+  box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 main .main-content .headings {
@@ -203,7 +207,6 @@ main .main-content .headings .pronat-button {
   flex-direction: column;
   gap: 25px;
   margin-inline: auto;
-
 }
 
 .pronat-1 .image-prona1 img {
