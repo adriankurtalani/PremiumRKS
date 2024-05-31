@@ -86,7 +86,7 @@ header .navbar a {
     background: transparent;
     text-transform: uppercase;
     font-weight: 900;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
 }
 
 .box:before {
@@ -248,4 +248,57 @@ header .navbar a {
     height: 100%;
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .5s;
+}
+
+.profile-socials {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+footer {
+    height: 28vh;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+footer .footer-navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .footer-navbar a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #fff;
+    padding: 5px 0;
+}
+
+footer .logo img {
+    border-radius: 10px;
+}
+
+.footy:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s ease-in;
+}
+
+.small-footer {
+    height: 50px;
+    background-color: #000;
+    border-top: 1px solid #fff;
+}
+
+.small-footer h1 {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
 }
