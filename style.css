@@ -353,6 +353,7 @@ main .main-content .headings .pronat-button {
   padding: 5px;
   border-radius: 8px;
   transition: 0.2s ease-in;
+  color: #000;
 }
 
 .ikona:hover {
