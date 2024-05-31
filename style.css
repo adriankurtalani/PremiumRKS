@@ -407,3 +407,16 @@ footer .logo img {
   color: #fff;
   padding: 10px;
 }
+
+.footer-socials {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.footer-socials i {
+    padding: 5px;
+    border-radius: 8px;
+    transition: 0.2s ease-in;
+    color: #fff;
+}
