@@ -178,6 +178,11 @@ header .navbar a {
     gap: 15px;
 }
 
+.pronat-1 .prona-content h1 {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
 .pronat-1 .prona-content .dhomat {
     display: flex;
     align-items: center;

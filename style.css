@@ -220,6 +220,11 @@ main .main-content .headings .pronat-button {
   margin-left: 27px;
 }
 
+.pronat-1 .prona-content h1 {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
 .pronat-1 .prona-content {
   display: flex;
   flex-direction: column;
